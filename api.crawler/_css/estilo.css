@@ -1,0 +1,33 @@
+html{
+
+	font: 15pt Arial;
+}
+
+body{
+
+	background: url("wallpaper.jpg") no-repeat top center fixed;
+	background-size: cover;
+	text-decoration-color: #ffffff;
+}
+
+div{
+
+	font: 15pt Arial;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	display: block;
+	position: relative;
+	top: 35px;
+	left: 180px;
+	width: 650px;
+	background-color: #273747;
+}
+
+#url_word{
+
+	position: relative;
+	top: -10px;
+	left: 40px;
+	width: 560px;
+}

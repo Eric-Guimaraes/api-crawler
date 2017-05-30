@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>API - Busca em URL</title>
+
+</head>
+
+<body>
+
+<div>
+
+<form accept-charset="utf-8" id="url_word" method="post" action="api.php"> <!-- aqui, fiz o formulário para obtenção dos parâmetros -->
+	
+<h3>Esta API conta as ocorrências da palavra-chave desejada, em um site qualquer.</h3>
+
+	<fieldset>
+
+	<legend><h1>Dados</h1></legend>
+
+	<p><label for="cLink">URL: </label><input type="URL" name="link" id="cLink" size="50" placeholder=" Exemplo: http://www.google.com" required /></p> <!-- Criei as Caixas de informação, cada uma com seu tipo específico, para evitar de que dados que não sejam sites sejam passados. -->
+
+	<p><label for="cPalavra">Palavra a ser procurada: </label><input type="text" name="palavra" id="cPalavra" size="20" maxlength="50" placeholder=" máximo 50 dígitos" required /></p> 
+
+	<input type="submit" value="Enviar"/>
+
+	</fieldset>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
